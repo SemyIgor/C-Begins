@@ -1,5 +1,13 @@
 # Shot information
 
+## Comands and operators
+
+Console.Clear();
+
+Console.SetCursorPosition(10, 4);
+
+here _`10 - padding left, 4 - padding top`_
+
 ## Data types:
 
 1. Integer
