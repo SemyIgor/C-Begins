@@ -1,4 +1,6 @@
-﻿//                Variant I
+﻿// If the number is even ?
+// 
+//                Variant I
 // =======================================================
 // Console.Write("Введите число: ");
 // string? inputString = Console.ReadLine();
