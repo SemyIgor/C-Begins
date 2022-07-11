@@ -10,11 +10,12 @@ if(inputString != null)
    int inputNumber = int.Parse(inputString);
    int counter = 2;
 
-   while (counter <= inputNumber)
+   while (counter < inputNumber)
    {
       Console.Write(counter + ", ");
       counter += 2;
    }
+      Console.Write(counter);
 }
 // -------------------------------------------------------
 //                End Variant I
