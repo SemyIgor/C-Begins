@@ -1,4 +1,6 @@
-﻿//                Variant I
+﻿// Find max of three numbers
+
+//                Variant I
 // =======================================================
 // Console.Write("Введите первое число: ");
 // string? firstNumberStr = Console.ReadLine();
