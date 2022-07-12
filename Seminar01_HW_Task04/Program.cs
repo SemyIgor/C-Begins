@@ -84,6 +84,53 @@
 //                Variant III
 // =======================================================
 
+//    Console.Write("Введите первое число: ");
+//    string? firstNumberStr = Console.ReadLine();
+
+//    Console.Write("Введите второе число: ");
+//    string? secondNumberStr = Console.ReadLine();
+
+//    Console.Write("Введите третье число: ");
+//    string? thirdNumberStr = Console.ReadLine();
+
+// if((firstNumberStr != null) && (secondNumberStr != null) && (thirdNumberStr != null))
+// {
+//    int firstNumber = int.Parse(firstNumberStr);
+//    int secondNumber = int.Parse(secondNumberStr);
+//    int thirdNumber = int.Parse(thirdNumberStr);
+
+//    switch(firstNumber > secondNumber)
+//    {
+//       case true:
+//          switch(firstNumber > thirdNumber)
+//          {
+//             case true:
+//                Console.WriteLine("max = " + firstNumber);
+//                break;
+//             case false:
+//                Console.WriteLine("max = " + thirdNumber);
+//                break;
+//          }
+//          break;
+//       case false:
+//          switch(secondNumber > thirdNumber)
+//          {
+//             case true:
+//                Console.WriteLine("max = " + secondNumber);
+//                break;
+//             case false:
+//                Console.WriteLine("max = " + thirdNumber);
+//                break;
+//          }
+//          break;
+//    }
+// }
+// -------------------------------------------------------
+//                End Variant III
+
+
+//                Variant IV
+// =======================================================
    Console.Write("Введите первое число: ");
    string? firstNumberStr = Console.ReadLine();
 
@@ -98,32 +145,11 @@ if((firstNumberStr != null) && (secondNumberStr != null) && (thirdNumberStr != n
    int firstNumber = int.Parse(firstNumberStr);
    int secondNumber = int.Parse(secondNumberStr);
    int thirdNumber = int.Parse(thirdNumberStr);
+   
+   int max = Math.Max(firstNumber, Math.Max(secondNumber, thirdNumber));
 
-   switch(firstNumber > secondNumber)
-   {
-      case true:
-         switch(firstNumber > thirdNumber)
-         {
-            case true:
-               Console.WriteLine("max = " + firstNumber);
-               break;
-            case false:
-               Console.WriteLine("max = " + thirdNumber);
-               break;
-         }
-         break;
-      case false:
-         switch(secondNumber > thirdNumber)
-         {
-            case true:
-               Console.WriteLine("max = " + secondNumber);
-               break;
-            case false:
-               Console.WriteLine("max = " + thirdNumber);
-               break;
-         }
-         break;
-   }
+   Console.WriteLine(max);
 }
 // -------------------------------------------------------
-//                End Variant III
+//                End Variant IV
+
